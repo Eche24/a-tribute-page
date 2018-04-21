@@ -1,0 +1,137 @@
+.main-body{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+body{
+    background-color: rgba(44, 46, 47, 0.78);
+    font-size: 16px;
+    line-height: 22px;
+    font-family: sans-serif;
+    color: #888;
+}
+.h-f{
+    padding-top: 40px;
+    text-align: center;
+    color: #8b0000;
+}
+#q-f{
+    text-align: center;
+    color: #8b0000;
+    text-transform: capitalize;
+}
+#tagline{
+    text-align: center;
+     color: rgba(0, 0, 0, 0.95);
+}
+a{  color: #2d2727;
+    text-decoration: none;
+}
+.side-bar{
+    display: inline-block;
+    width:;
+    margin-left: 3px;
+    background-color: #f5f5dc;
+    border: 1px solid #ccc;
+    font-family: monospace;
+    padding-top: 15px;
+}
+img{
+    margin-left: 20px;
+    width: 50%;
+}
+strong{
+    
+    text-transform: uppercase;
+}
+.contain{
+    text-align: center;
+    color: #2f4f4f;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-right: 81px;
+    font-variant: small-caps;
+    font-stretch: semi-condensed;
+    margin-bottom: 1px;
+}
+
+.main-contain{
+    font-family: serif;
+    line-height: 32px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.95);
+}
+.wrapper-side-bar{
+    width:100%;
+}
+
+.read-more{
+    text-align: center;
+    font-size:19px;
+    margin-bottom: -23px;
+    font-family: cursive;
+    font-style: italic;
+}
+.hf-quote{
+    text-align: center;
+    text-transform: capitalize;;
+    color: #008080;
+    font-size: 1.4em;
+    padding-top: 4.12%;
+}
+.henry-ford-quote{
+    font-style: italic;
+        padding-bottom: 3.2%;
+    font-stretch: condensed;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8b0000;
+}
+.more-quote{
+    margin-bottom: 10px;
+    text-align: end;
+    margin-top: -27px;
+    margin-right: 60px;
+}
+footer{
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 20px;
+}
+/*media*/
+@media only screen and (max-width:1201px){
+    .side-bar{
+        width:98%;
+    }
+    img{
+        width:99%;
+        margin-left: 0px;
+    }
+    .h-f{
+        line-height: 30px;
+    }
+    .main-body{
+        width:90%;
+    }
+}
+@media only screen and (min-width:1202px)and (max-width:1328px){
+    
+    .main-body{
+        width:90%;
+    }
+    img {
+    margin-left: 63px;
+        width: 46%;}
+}
+@media only screen and (min-width:1211px)and (max-width:1225px){
+    
+    .main-body{
+        width:90%;
+    }
+    img {
+    margin-left: 14px;
+        width: 50%;}
+}
